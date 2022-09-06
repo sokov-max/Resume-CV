@@ -14,21 +14,16 @@ color: #0f141e;
    color: #86898f;
 }
 
-
-
-.borders-1 {
-   border-width: 2px;
-   border-style: solid;
-   border-color: red;
-   border-radius: 5px;
+.card {
+   border-radius: 20px;
+   padding-left: 20px;
 }
-
-.borders-2 {border-bottom: 2px solid blue;}
-
-
-.borders-3 {
-   border-left: 6px solid red;
-   background: lightsalmon;
-   padding-left: 10px;
-   color: aqua;
+.bg-yellow {
+   background: #fff9bc;
+}
+.bg-red {
+   background: #ffe5e5;
+}
+.bg-green {
+   background: #e5ffe7;
 }
