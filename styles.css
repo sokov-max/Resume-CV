@@ -8,21 +8,22 @@ background: #f1f1f1;
 color: #0f141e;
 }
 .conteiner{
-   max-width: 750px;
+   max-width: 650px;
    margin:auto ;
    padding-top: 30px;
 }
 .avatar {
    width: 200px;
    border-radius: 20px;
-   box-shadow: 4px 4px 14px; rgba (0, 0, 0, .25);
+   box-shadow: 5px 4px 24px; rgba (0, 0, 0, .25);
 }
 .info {
-   margin-bottom: 20px;
    display: flex;
+   margin-bottom: 20px;
+   
 }
 .info-text {
-   margin-left: 40px;
+   margin-left: 20px;
 }
 .info-text p {
    font-style: italic;
@@ -32,6 +33,12 @@ color: #0f141e;
 }
 .info-text h4 {
    margin-bottom: 15px;
+}
+@media (max-width: 750px) {
+   .info { 
+      display: block;
+      text-align: center;
+   }
 }
 .card {
    border-radius: 20px;
@@ -112,9 +119,19 @@ a:hover {
    .form-row .form-group {
       margin-right:  20px; 
       width: 50%;
+      border: px;
    }
    .form-row .form-group: last-child {
       margin: 0;
+   }
+   @media (max-width:650px) {
+      .form-row{ display: block;} 
+      .form-row .form-group: {
+         width: 100%;
+         margin-right: 0;
+         margin-bottom: 10px;
+         
+      }
    }
    .form-group label {
       display: block;
