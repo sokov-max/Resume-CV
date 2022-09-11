@@ -13,7 +13,7 @@ color: #0f141e;
    padding-top: 30px;
 }
 .avatar {
-   width: 200px;
+   width: 235px;
    border-radius: 20px;
    box-shadow: 5px 4px 24px; rgba (0, 0, 0, .25);
 }
@@ -81,7 +81,7 @@ a:hover {
 }
 .btn:hover {
    opacity: 0.8;
-   color: rgb(27, 223, 63);
+   color: rgb(16, 191, 112);
 
 }
 .list {
@@ -92,12 +92,12 @@ a:hover {
       margin-bottom: 5px;
    }
    .link-list {
-      padding: 0;
+      padding: 10;
    }
    .link-list li {
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
+      padding-bottom: 20px;
    }
    .table {
       width: 100%;
@@ -113,40 +113,42 @@ a:hover {
       text-align: center;
    }
    .form-row {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       display: flex;
    }
    .form-row .form-group {
       margin-right:  20px; 
       width: 50%;
-      border: px;
+      border: 2px;
    }
    .form-row .form-group: last-child {
-      margin: 0;
+      margin: 50;
    }
    @media (max-width:650px) {
       .form-row{ display: block;} 
       .form-row .form-group: {
          width: 100%;
          margin-right: 0;
-         margin-bottom: 10px;
+         margin-bottom: 50px;
          
       }
    }
    .form-group label {
       display: block;
       font-size: 14px;
-      color: #86898f;
+      color: #1250cb;
+      margin-top: 10px;
+      margin-bottom: 5px;
    }
    .form-group input,
    .form-group textarea {
       width: 100%;
       box-sizing: border-box;
-      border: none;
       background: transparent;
-      border-bottom: 1px solid #ccc;
-      color: #000;
+      border-bottom: solid #1250cb(204, 12, 12);
+      color: 0;(45, 193, 204);
       padding: 15px 0 10px;
+      padding-left: 5px;
       outline: none;
       font-family: inherit;
    }
